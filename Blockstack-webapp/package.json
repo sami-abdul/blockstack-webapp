@@ -1,7 +1,7 @@
 {
-  "name": "hello-blockstack",
-  "version": "0.0.0",
-  "description": "A simple Blockstack app",
+  "name": "timski",
+  "version": "0.0.1",
+  "description": "A Blockstack app for group chat",
   "main": "index.js",
   "scripts": {
     "browserify": "browserify requires.js -o public/bundle.js",

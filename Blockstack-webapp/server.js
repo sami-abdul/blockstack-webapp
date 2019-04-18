@@ -30,8 +30,8 @@ app.use('/', express.static(__dirname + '/public'))
 })*/
 
 var options = {
-  key: fs.readFileSync('/etc/letsencrypt/live/innermatrix.co/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/innermatrix.co/fullchain.pem')
+  key: fs.readFileSync('/etc/letsencrypt/live/concatify.io/privkey.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/concatify.io/fullchain.pem')
 };
 
 http.createServer(app).listen(8080);
